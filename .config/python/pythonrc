@@ -1,0 +1,22 @@
+# Hey Emacs!  This is a -*- python -*- file.
+
+# Get tab completion
+#   http://docs.python.org/2/library/rlcompleter.html
+try:
+	import readline
+except ImportError:
+	print "Module readline not available."
+else:
+	import rlcompleter
+	readline.parse_and_bind("tab: complete")
+
+# Import pandas and numpy
+try:
+	import pandas as pd
+except ImportError:
+	print "Module pandas not available."
+
+try:
+	import numpy as np
+except ImportError:
+	print "Module numpy not available."

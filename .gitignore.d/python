@@ -1,0 +1,6 @@
+*
+!/.config
+!/.config/python
+!/.config/python/pythonrc
+!/.gitignore.d
+!/.gitignore.d/python
